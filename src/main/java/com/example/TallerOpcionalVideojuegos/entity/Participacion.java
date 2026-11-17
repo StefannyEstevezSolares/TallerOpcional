@@ -78,14 +78,15 @@ public class Participacion {
     }
 
     @Override
-    public String toString() {
-        return "Participacion{" + "id=" + id + 
-                ", torneo=" + torneo + 
-                ", posicion=" + posicion + 
-                ", puntos=" + puntos + 
-                ", personaje=" + personaje + '}';
-    }
-    
+public String toString() {
+    return "Participacion{" +
+            "id=" + id +
+            ", personaje=" + (personaje != null ? personaje.getNombre() : null) +
+            ", torneo=" + (torneo != null ? torneo.getNombre() : null) +
+            ", posicion=" + posicion +
+            ", puntos=" + puntos +
+            '}';
+}
     
     
 }

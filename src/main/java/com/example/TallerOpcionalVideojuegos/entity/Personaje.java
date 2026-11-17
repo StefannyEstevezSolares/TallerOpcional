@@ -74,17 +74,19 @@ public class Personaje {
         this.participaciones = participaciones;
     }
 
-    @Override
-    public String toString() {
-        return "Personaje{" + "id=" + id + 
-                ", nombre=" + nombre + 
-                ", universo=" + universo + 
-                ", tipo=" + tipo +  '}';
+   @Override
+public String toString() {
+    return "Personaje{" +
+            "id=" + id +
+            ", nombre='" + nombre + '\'' +
+            ", universo='" + universo + '\'' +
+            ", tipo='" + tipo + '\'' +
+            '}';
+}
         
         //Como dijo profe, no vamos a dejar participaciones
         //para evitar un bucle infinito al hacer la relación
-    }
+ }
     
     
     
-}

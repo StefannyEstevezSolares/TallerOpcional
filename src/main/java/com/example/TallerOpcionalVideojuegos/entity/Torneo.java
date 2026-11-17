@@ -75,16 +75,15 @@ public class Torneo {
         this.participaciones = participaciones;
     }
 
-    @Override
-    public String toString() {
-        return "Torneo{" + 
-                "id=" + id + 
-                ", nombre=" + nombre +
-                ", ubicacion=" + ubicacion + 
-                ", fecha=" + fecha + 
-                ", participaciones=" + participaciones + '}';
-    }
-    
+   @Override
+public String toString() {
+    return "Torneo{" +
+            "id=" + id +
+            ", nombre='" + nombre + '\'' +
+            ", ubicacion='" + ubicacion + '\'' +
+            ", fecha=" + fecha +
+            '}';
+}
     
     
 }
