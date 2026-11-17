@@ -1,7 +1,7 @@
 # Super Smash Bros. Tournament Manager
 
 <p align="center">
-  <img src="docs/images/personajes.png"
+  <img src="docs/images/Smash2.png"
        alt="Personajes de Super Smash Bros."
        width="550">
 </p>
@@ -21,7 +21,7 @@ El proyecto fue realizado para poner en práctica el uso de las relaciones `@One
 El sistema representa la participación de diferentes personajes en torneos de Super Smash Bros.
 
 <p align="center">
-  <img src="docs/images/torneo.jpg"
+  <img src="docs/images/smash2.jpeg"
        alt="Torneo de Super Smash Bros."
        width="550">
 </p>
